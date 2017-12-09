@@ -1,0 +1,17 @@
+{
+  "name": "alexa-reminders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alexa-reminders.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^3.0.2",
+    "nightmare": "^2.10.0",
+    "request": "^2.83.0"
+  }
+}
