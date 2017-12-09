@@ -7,6 +7,9 @@ $ npm install -S alexa-reminders
 ```
 
 #### Usage
+To create a reminder for a future date/time pass a datetime with the following format: 'yyyy-mm-dd HH:MM' to play reminder immediately just pass null.
+setReminder = function(message, datetime, callback)
+
 ```javascript
 var reminders = require('alexa-reminders')
 
