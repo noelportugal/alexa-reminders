@@ -2,6 +2,7 @@
 A nodejs library to create Amazon Echo Alexa Reminders
 
 ### This librabry can also be used as a pseudo Push Notification alternative.
+## Read more about why [here](http://theappslab.com/2017/12/08/alexa-push-notifications-via-reminders/)
 
 #### Installation
 ```sh
