@@ -3,7 +3,7 @@ A nodejs library to create Amazon Echo Alexa Reminders
 
 #### Installation
 ```sh
-$ npm install alexa-reminders
+$ npm install -S alexa-reminders
 ```
 
 #### Usage
