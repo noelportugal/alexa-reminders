@@ -18,6 +18,10 @@ reminders.login('Device Name', 'username', 'password', function(error, response,
   })
 })
 ```
+### Listener
+Use a listener server to listen for calls from services such as IFTTT
+[https://github.com/noelportugal/alexa-reminders-listener](https://github.com/noelportugal/alexa-reminders-listener)
+
 #### TODO
-- [ ] Create Listener example
+- [X] Create Listener example
 - [ ] Save cookies and device info in FileSystem file to avoid login every time
