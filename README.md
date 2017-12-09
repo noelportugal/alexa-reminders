@@ -18,5 +18,5 @@ reminders.login(function(error, response){
 })
 ```
 #### TODO
-[ ] Create Listener example
-[ ] Save cookies and device info in FileSystem file to avoid login every time
+- [ ] Create Listener example
+- [ ] Save cookies and device info in FileSystem file to avoid login every time
