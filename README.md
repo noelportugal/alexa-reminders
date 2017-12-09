@@ -1,23 +1,20 @@
 # alexa-reminders
 A nodejs library to create Amazon Echo Alexa Reminders
 
+### This librabry can also be used as a pseudo Push Notification alternative.
+
 #### Installation
 ```sh
 $ npm install -S alexa-reminders
 ```
 
 #### Usage
-To create a reminder for a future date/time pass a datetime with the following format: 'yyyy-mm-dd HH:MM'.
-To play reminder immediately just pass null.
-
-  setReminder = function(message, datetime, callback)
-  
-
 ```javascript
 var reminders = require('alexa-reminders')
 
 reminders.device('Device Name', 'username', 'password')
 reminders.login(function(error, response){
+  // pass 'yyyy-mm-dd HH:MM' instead of null for specific date/time
   reminders.setReminder('Ask Alexa team for a proper Reminders API', null, function(error, response){
     console.log(response)
   })
