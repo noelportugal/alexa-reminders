@@ -1,7 +1,7 @@
 {
   "name": "alexa-reminders",
   "version": "1.0.1",
-  "description": "",
+  "description": "DEPRECATED (2026) — no longer works. Use the official Alexa Reminders API or alexa-remote2. See README.",
   "main": "alexa-reminders.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

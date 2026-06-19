@@ -1,3 +1,15 @@
+// DEPRECATED (2026): this library no longer works. It relied on scripting the
+// alexa.amazon.com sign-in page with a headless browser, which Amazon now blocks
+// (bot detection + 2FA), on top of abandoned dependencies (Nightmare, request).
+// Use the official Alexa Reminders API
+//   https://developer.amazon.com/en-US/docs/alexa/smapi/alexa-reminders-overview.html
+// or, for personal automation, alexa-remote2
+//   https://www.npmjs.com/package/alexa-remote2
+console.warn(
+  '[alexa-reminders] DEPRECATED and non-functional — see the README. ' +
+  'Use the official Alexa Reminders API or the alexa-remote2 package instead.'
+)
+
 var request = require('request')
 var Nightmare = require('nightmare')
 var nightmare = Nightmare({ show: false })
